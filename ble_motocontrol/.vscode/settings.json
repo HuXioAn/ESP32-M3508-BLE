@@ -1,0 +1,44 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "idf.adapterTargetName": "esp32",
+    "files.associations": {
+        "freertos.h": "c",
+        "task.h": "c",
+        "can.h": "c",
+        "esp_err.h": "c",
+        "twai_hal.h": "c",
+        "twai.h": "c",
+        "array": "c",
+        "vector": "c",
+        "xstring": "c",
+        "cstring": "c",
+        "iosfwd": "c",
+        "memory": "c",
+        "xmemory": "c",
+        "xutility": "c",
+        "*.ipp": "c",
+        "*.inc": "c"
+    },
+    "idf.portWin": "COM7",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ]
+}
